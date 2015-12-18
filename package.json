@@ -1,8 +1,9 @@
 {
   "name": "walk-dir-tree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "walk-dir-tree is a recursive directory listing command that produces a depth indented listing of files like tree",
   "keywords": ["tree", "directory", "walk-dir-tree", "co"],
+  "repository": "https://github.com/zwhu/walk-dir-tree",
   "bin": "./bin/index",
   "main": "index.js",
   "author": "zwhu <zwhu2014@foxmail.com>",
