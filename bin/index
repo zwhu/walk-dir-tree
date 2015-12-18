@@ -1,0 +1,12 @@
+#!/usr/bin/env node --harmony
+
+var co = require('co')
+var read = require('../index.js')
+
+co(read(process.cwd()))
+.then(function(str) {
+  console.log(str.join('\n'))
+})
+.catch(function(err) {
+  console.error(err.stack)
+})
